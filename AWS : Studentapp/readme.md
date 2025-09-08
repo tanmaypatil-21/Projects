@@ -31,12 +31,42 @@ systemctl status mariadb
 ````
 <img width="616" height="183" alt="Screenshot 2025-08-29 185413" src="https://github.com/user-attachments/assets/23a3992a-3514-4b22-bd6d-814d84617624" />
 
-## log in into DB-instance
+## log in into DataBase-instance
 
 ````
 mysql -h "rds-endpoint"   -u admin -ppassword123
 ````
 <img width="1212" height="27" alt="Screenshot 2025-08-29 185714" src="https://github.com/user-attachments/assets/85acb7c5-9f62-4c81-b540-72dbfdb6ea8b" />
+
 Note: replace rds-endpoint with actual endpoint value and password also
 
 <img width="1897" height="867" alt="Screenshot 2025-08-29 185453" src="https://github.com/user-attachments/assets/b228897e-9665-481b-bcd9-dbe5a3fee9a1" />
+
+## Create database 
+````
+create database  studentapp;
+````
+```sql
+show databases;
+```
+````
+use studentapp;
+````
+
+<img width="503" height="449" alt="Screenshot 2025-08-29 185900" src="https://github.com/user-attachments/assets/6ab8ba04-d775-4311-a22c-ac7160c81326" />
+
+## Create table
+
+```sql
+ CREATE TABLE if not exists students(student_id INT NOT NULL AUTO_INCREMENT,  
+	student_name VARCHAR(100) NOT NULL,  
+	student_addr VARCHAR(100) NOT NULL,   
+	student_age VARCHAR(3) NOT NULL,      
+	student_qual VARCHAR(20) NOT NULL,     
+	student_percent VARCHAR(10) NOT NULL,   
+	student_year_passed VARCHAR(10) NOT NULL,  
+	PRIMARY KEY (student_id)  
+);
+```
+
+<img width="1022" height="296" alt="Screenshot 2025-08-29 190100" src="https://github.com/user-attachments/assets/c732b78d-9481-42ed-9467-77239ec5dcb7" />
