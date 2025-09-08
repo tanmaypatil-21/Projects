@@ -11,7 +11,7 @@
 
 ## 2. Launch ec2 instance
 
-<img width="1887" height="862" alt="Screenshot 2025-08-29 182250" src="https://github.com/user-attachments/assets/133ba51e-5df5-403a-a7a5-4c4de77f94ca" />
+<img width="1887" height="862" alt="Screenshot 2025-08-29 182250" src="https://github.com/user-attachments/assets/8430c33e-4505-4fc6-9f8b-f775561f62e7" />
 
 
 
