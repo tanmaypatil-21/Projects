@@ -1,7 +1,7 @@
 # $${\color{yellow} \textbf{Project}: \textbf{Student}  \ \textbf{App}}$$
 
 
-## 1. Create Security Group and add following ports
+## 1. Create Security Group and add following ports in inbound rule
 - 80 = HTTP
 - 22 = SSH 
 - 8080 = Tomcat 
@@ -9,7 +9,7 @@
 <img width="1896" height="863" alt="Screenshot 2025-08-29 181629" src="https://github.com/user-attachments/assets/6c9666bf-0ef7-4893-90f7-c68502a5ab76" />
 
 
-## 2. Launch ec2 instance
+## 2. Launch ec2 instance with connect SG 
 
 <img width="1887" height="862" alt="Screenshot 2025-08-29 182250" src="https://github.com/user-attachments/assets/8430c33e-4505-4fc6-9f8b-f775561f62e7" />
 
